@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Physing Link Detector</title>
+    <link rel="stylesheet" href="/static/currencyconverter.css">
+</head>
+<body>
+    <h1>Physing Link Checker</h1>
+    <div id="output">
+        <form method="post">
+             <input type="string"
+                    name="url"
+                    placeholder="url"
+                    >
+            <input type="submit"
+                    value="check">
+        </form>
+        {% if usd %}
+        <h3>
+            {{euros}} is
+            {{usd}}
+        </h3>
+        {% endif %}
+    </div>
+</body>
+</html>
