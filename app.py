@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from selenium import webdriver
+from selenium.webdriver import FirefoxOptions
 from selenium.webdriver.common.keys import Keys
 import time
 
@@ -12,7 +13,9 @@ def form():
 @app.route("/", methods=["POST"])
 def my_form_post():
     url = request.form["url"]
-    browser = webdriver.Firefox()
+    opts = FirefoxOptions()
+    opts.add_argument("--headless")
+    browser = webdriver.Firefox(firefox_options=opts)
     _take = url
     removable1 = "https://"
     removable2 = "http://"
