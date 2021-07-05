@@ -35,7 +35,6 @@ def main():
     inpErr = True
 
     while inpErr != False:
-        print('\nEnter id ex - 1 or 2: ', end='')
         userInput = int(1)
 
         if userInput <= len(installed_pr) and userInput > 0:
