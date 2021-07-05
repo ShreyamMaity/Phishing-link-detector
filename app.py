@@ -11,9 +11,9 @@ def form():
 
 @app.route("/", methods=["POST"])
 def my_form_post():
-    euros = request.form["url"]
+    url = request.form["url"]
     browser = webdriver.Firefox()
-    _take = euros
+    _take = url
     removable1 = "https://"
     removable2 = "http://"
 
@@ -97,11 +97,11 @@ def my_form_post():
     else :
         status = "Safe Link"
 
-    usd = _take
+    urlInfo = _take
 
     return render_template("form.html",
-                           euros=usd,
-                           usd=status)
+                           urlUpdate=urlInfo,
+                           stausUpdate=status)
 
 if __name__ == "__main__":
     app.run(debug=True)
