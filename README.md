@@ -11,5 +11,5 @@ to use just run
 3) cd Phishing-link-detector 
 5) python3 setup.py
 6) pip install -r requirements.txt 
-7) uwsgi dev.ini 
+7) uwsgi dev.ini \
 will run on localhost:9090
