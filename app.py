@@ -36,7 +36,7 @@ def my_form_post():
     time.sleep(1)
     browser.quit()
 
-    # Python program for KMP Algorithm
+    # searching algorithm
     def KMPSearch(pat, txt):
         M = len(pat)
         N = len(txt)
@@ -58,7 +58,7 @@ def my_form_post():
                 return 100
                 j = lps[j - 1]
 
-            # mismatch after j matches
+           
             elif i < N and pat[j] != txt[i]:
 
                 if j != 0:
