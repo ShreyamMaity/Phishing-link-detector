@@ -1,6 +1,6 @@
 # Phising-link-detector
 Info Coming Soon 
-A project made for Final Prioject of Team Cognito Cloud Computing Course Certification 
+A project made for Final Project of Team Cognito Cloud Computing Course Certification 
 
       [LOCAL MACHINE]
 make sure you have python3 & pip installed
