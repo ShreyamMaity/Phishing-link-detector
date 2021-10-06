@@ -5,7 +5,7 @@
 ![Hacktoberfest 2021](./hacktoberfest2021.png)
 # Hacktoberfest 2021
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ShreyamMaity) ![](https://visitor-badge.glitch.me/badge?page_id=ShryeyamMaity.Phishing-link-detector)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ShreyamMaity) [![Daily Visitors](https://visitor-badge.glitch.me/badge?page_id=ShryeyamMaity.Phishing-link-detector) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Requred Features :
 - An Website to represent form
