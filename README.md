@@ -2,10 +2,10 @@
 
 
 ### Create a Pull Request to perticipate in hacktoberfest 2021
-[![Hacktoberfest 2021](./assets/logo.png)](https://vinitshahdeo.dev/hacktoberfest-2021)
+[![Hacktoberfest 2021](./hacktoberfest2021.png)]
 # Hacktoberfest 2021
 
-[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ShreyamMaity)
+[![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ShreyamMaity) ![](https://visitor-badge.glitch.me/badge?page_id=ShryeyamMaity.Phishing-link-detector)
 
 # Requred Features :
 - An Website to represent form
