@@ -17,8 +17,7 @@ def my_form_post():
     opts.add_argument("--headless")
     browser = webdriver.Firefox(firefox_options=opts)
     _take = url
-    removable1 = "https://"
-    removable2 = "http://"
+    removable1,removable2 = '''"https://","http://"'''
 
     if removable1 in _take:
         _take = _take.replace('https://', '')
@@ -28,7 +27,6 @@ def my_form_post():
         _take = _take
 
     browser.get("https://" + _take)
-
 
     time.sleep(3)
     # print(browser.current_url)
@@ -40,7 +38,6 @@ def my_form_post():
     def KMPSearch(pat, txt):
         M = len(pat)
         N = len(txt)
-
 
         lps = [0] * M
         j = 0  # index for pat[]
@@ -54,11 +51,10 @@ def my_form_post():
                 j += 1
 
             if j == M:
-                #Return value to use it
+                # Return value to use it
                 return 100
                 j = lps[j - 1]
 
-           
             elif i < N and pat[j] != txt[i]:
 
                 if j != 0:
@@ -72,7 +68,6 @@ def my_form_post():
         lps[0]  # lps[0] is always 0
         i = 1
 
-
         while i < M:
             if pat[i] == pat[len]:
                 len += 1
@@ -80,10 +75,8 @@ def my_form_post():
                 i += 1
             else:
 
-
                 if len != 0:
                     len = lps[len - 1]
-
 
                 else:
                     lps[i] = 0
@@ -94,17 +87,15 @@ def my_form_post():
 
     #KMPSearch(pat, txt)
 
-
-    if KMPSearch(pat, txt) == 100 :
-        status = "Phishing Link"
-    else :
-        status = "Safe Link"
+    if KMPSearch(pat, txt) == 100:
+        status = "It is a Phishing Link, Don't visit"
+    else:
+        status = "It is a Safe Link, You can go"
 
     urlInfo = _take
 
     return render_template("form.html",
                            urlUpdate=urlInfo,
                            stausUpdate=status)
-
 if __name__ == "__main__":
     app.run(debug=True)
