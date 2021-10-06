@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Phishing Link Detector</title>
-    <link rel="stylesheet" href="/static/form.css">
+    <link rel="stylesheet" href="/templates/form.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
+
 <body>
-    <h1>Phishing Link Checker</h1>
+    <div class="navbar">
+        <h1>Phishing Link Checker</h1>
+    </div>
     <div id="output">
-        <form method="post">
-             <input type="string"
-                    name="url"
-                    placeholder="url"
-                    >
-            <input type="submit"
-                    value="check">
+        <form class="searchbar" method="post">
+            <input type="string" name="url" placeholder="Website URL">
+            <input type="submit" value="Check">
         </form>
+        <div class="result">
         {% if stausUpdate %}
         <h3>
             {{urlUpdate}} is
@@ -23,5 +25,7 @@
         </h3>
         {% endif %}
     </div>
+    </div>
 </body>
+
 </html>
