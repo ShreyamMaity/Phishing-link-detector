@@ -1,7 +1,7 @@
 # Phising-link-detector
 
 
-### Create a Pull Request to perticipate in hacktoberfest 2021
+### Create a Pull Request to participate in Hacktoberfest 2021
 ![Hacktoberfest 2021](./hacktoberfest2021.png)
 # Hacktoberfest 2021
 
@@ -17,9 +17,9 @@ Info Coming Soon
 A project made for Final Project of Team Cognito Cloud Computing Course Certification 
 
       [LOCAL MACHINE]
-make sure you have python3 & pip installed
+Make sure you have python3 & pip installed
  
-to use just run
+To use just run
 - 1) cd ~/
 - 2) fork the repository
 - 3) Clone it to local machine
