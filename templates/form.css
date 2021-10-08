@@ -18,9 +18,12 @@
 }
 #output {
     display: flex;
-    margin: 50px 0 0 0;
+    padding: 50px 0 0 0;
     flex-direction: column;
     align-items: center;
+    width: calc(100vw - 17px);
+    height: 100vh;
+    background-color: #fdef2d;
 }
 .searchbar
 {
@@ -49,6 +52,7 @@
     cursor: pointer;
     background: #fff;
     padding: 10px 15px;
+    transition: background 0.2s;
 }
 .searchbar input[type=submit]:hover
 {
@@ -59,10 +63,12 @@
 .result
 {
     margin: 50px 0 0 0;
-    background: rgba(209, 209, 209, 0.384);
+    background: rgba(255, 255, 255, 0.514);
     border-radius: 20px;
     width: 98%;
     text-align: center;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.274),
+                -3px -3px 5px white;
 }
 @media screen and (max-width: 660px) {
     
