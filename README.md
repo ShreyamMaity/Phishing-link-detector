@@ -1,4 +1,4 @@
-# **<p align="center">~Phising Link Detector~**
+# **<p align="center">Phising Link Detector**
 
 
 ### <p align="center">Create a Pull Request to participate in Hacktoberfest 2021  
