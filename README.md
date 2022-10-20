@@ -1,4 +1,4 @@
-# **<p align="center">Phising Link Detector**
+# **<p align="center">Phishing Link Detector**
 
 
 ### <p align="center">Create a Pull Request to participate in Hacktoberfest 2021  
@@ -12,8 +12,8 @@
       You can learn how from this *free* series [How to Contribute to an Open Source Project on GitHub](https://kcd.im/pull-request)
 
 # Requred Features :
-- An Website to represent form
-- Adding More website in algorithm Database(app.py)
+- A Website to represent from
+- Adding More websites in algorithm Database(app.py)
 - Complexity issues
 - Github Hostability
 - Python Code Modifications
